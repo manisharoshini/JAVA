@@ -1,7 +1,7 @@
 package examples;
 
 public class RemoveDuplicate {
-	public static int removeDupliceate(int arr1[], int n) {
+	public static int removeDuplicate(int arr1[], int n) {
 		if(n==0 || n==1) {
 			return n;
 		}
@@ -25,7 +25,7 @@ public class RemoveDuplicate {
 		int arr1[]= {11,12,13,11,12,13,14,15,16,14,15,16};
 		
 		int l =arr1.length;
-		l=removeDupliceate(arr1,l);
+		l=removeDuplicate(arr1,l);
 		
 		//printing array elements
 		for(int i=0;i<1;i++) {
